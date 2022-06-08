@@ -43,6 +43,9 @@ public class Televisions {
     @FindBy(css = "span#productTitle")
     public WebElement productTitle;
 
+    @FindBy(xpath = "//*[.=' About this item ']")
+    public WebElement aboutThisItemSection;
+
 
 
 
